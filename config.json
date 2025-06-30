@@ -1,0 +1,16 @@
+{
+  "name": "GPodder Server",
+  "version": "1.0.0",
+  "slug": "gpodder_server",
+  "description": "Servidor GPodder.net para sincronización de podcasts.",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64", "aarch64"],
+  "host_network": true,
+  "privileged": true,
+  "ports": {
+    "80/tcp": 8081
+  },
+  "options": {},
+  "schema": {}
+}
