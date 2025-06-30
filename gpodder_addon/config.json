@@ -8,9 +8,14 @@
   "arch": ["amd64", "aarch64"],
   "host_network": true,
   "privileged": true,
-  "ports": {
-    "80/tcp": 8081
+  "options": {
+    "username": "usuario",
+    "password": "contraseña",
+    "email": "correo@ejemplo.com"
   },
-  "options": {},
-  "schema": {}
+  "schema": {
+    "username": "str",
+    "password": "str",
+    "email": "str"
+  }
 }
